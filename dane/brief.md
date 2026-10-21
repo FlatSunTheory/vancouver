@@ -42,6 +42,13 @@ Narzędzie ma zawierać:
 
 ## 3. Decyzje techniczne
 
+> **Stan z 22.10.2026.** Aplikacja żyje w repo **github.com/FlatSunTheory/vancouver** (publiczne)
+> i jest opublikowana na **https://flatsuntheory.github.io/vancouver/**. To jest wersja główna —
+> działa na każdym urządzeniu, także na telefonie. Plik otwierany z dysku nie ładuje kafelków OSM
+> (blokada OSM dla stron bez nagłówka Referer), dlatego w aplikacji jest przełącznik podkładu:
+> OSM (domyślny na stronie), Esri ulice (domyślny z pliku), Esri satelita, OpenTopoMap.
+> Oceny i plan dnia żyją w pamięci przeglądarki — między urządzeniami przenosi je Eksport/Import.
+
 > **Zmiana z 22.08.2026.** Pierwotne założenie „Leaflet + kafelki OSM w artifacie,
 > trwałość przez `window.storage`" okazało się niewykonalne. Artifact na claude.ai jest
 > odcięty od zewnętrznych hostów (CSP) — nie wczyta ani Leafleta z CDN, ani kafelków
