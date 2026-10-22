@@ -5,7 +5,7 @@ października i listopada 2026. Jeden plik HTML, bez backendu, bez kluczy API.
 
 ## Co potrafi
 
-- **Mapa** 94 punktów w Vancouver i okolicach — Halloween, natura, miasto, jedzenie,
+- **Mapa** 190 punktów w Vancouver i okolicach — Halloween, natura, miasto, jedzenie,
   muzea, widoki, spacery z przewodnikiem i szlaki piesze.
 - **Filtry** — kategoria, pod dachem, bez auta, sezonowe, bezpieczne bezglutenowo,
   ze szlakiem, dzielnica, priorytet, wyszukiwarka.
@@ -41,6 +41,15 @@ Po chwili strona jest pod `https://UZYTKOWNIK.github.io/NAZWA-REPO/`.
 
 `dane/vancouver-miejsca.json` to jedyne źródło prawdy o miejscach. Kod mapy jest
 wymienny, dane nie. Schemat pinezki i ustalenia merytoryczne opisuje `dane/brief.md`.
+Dane są też wbudowane w `index.html` (`<script id="dane">`) — po zmianie JSON-a trzeba
+je tam podmienić, inaczej strona pokaże starą listę.
+
+Od wersji 7 danych (22.10.2026, przebiegi researchu A i B) pinezki mogą mieć
+dodatkowe pola: `opis`, `dojazd_komunikacja`, `zrodla`, `pewnosc`, `zrodlo_danych`,
+a trasy także `start`, `cel`, `typ_trasy`, `punkty`, `trudnosc`, `czas_h`,
+`nawierzchnia`, `szlaki_po_drodze`, `warunki_x_xi`, `zwrot_awaryjny`, `alltrails`.
+Popup pokazuje opis, dojazd bez auta, trudność, warunki X–XI i ostrzeżenie przy
+`pewnosc: "niska"`.
 
 Uwaga: oceny i plan dnia **nie trafiają do repozytorium** — żyją w pamięci
 przeglądarki każdej osoby osobno. Publiczne repo ujawnia listę miejsc i kod,
