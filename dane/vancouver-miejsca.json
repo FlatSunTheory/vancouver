@@ -5371,7 +5371,7 @@
     },
     {
       "id": "sp-145",
-      "nazwa": "The Ghosts of New Westminster",
+      "nazwa": "Ghostly New West Tour (Ghostly Vancouver Tours)",
       "kategoria": "spacer",
       "lat": 49.20459,
       "lng": -122.90585,
@@ -5385,7 +5385,7 @@
       "wymaga_auta": false,
       "wymaga_rezerwacji": true,
       "priorytet": "nice",
-      "notatka": "32 CAD + opłaty. Zbiórka przed Met Hotel (411 Columbia St).",
+      "notatka": "Organizator: Ghostly Vancouver Tours (wg Eventbrite). Halloweenowe terminy 28 i 29.10, 19:30. Cena: Daily Hive 32 CAD + opłaty, strona organizatora 30 CAD + GST. Zbiórka przed Met Hotel (411 Columbia St), przy stacji SkyTrain Columbia. Inne terminy w 24.10–12.11 niepotwierdzone. W researchu występowała pod dwiema nazwami (też „The Ghosts of New Westminster”) – to jedna wycieczka.",
       "link": "https://www.eventbrite.ca/e/the-ghostly-new-west-tour-tickets-1302686533489",
       "gluten": "",
       "laktoza": "",
@@ -5398,7 +5398,9 @@
       "opis": "Nocny spacer z paranormalnymi 'badaczami' po najstarszym mieście regionu – historie duchów, nawiedzony hotel i 'dowody'.",
       "dojazd_komunikacja": "SkyTrain Expo do Columbia – zbiórka przed Met Hotel",
       "zrodla": [
-        "https://dailyhive.com/vancouver/halloween-haunted-houses-ghost-tours-vancouver-2026"
+        "https://dailyhive.com/vancouver/halloween-haunted-houses-ghost-tours-vancouver-2026",
+        "https://www.eventbrite.ca/e/the-ghostly-new-west-tour-tickets-1302686533489",
+        "https://www.ghostlyvancouvertours.com/our-tours"
       ],
       "pewnosc": "wysoka",
       "zrodlo_danych": "Dodane 22.10.2026 z przebiegu B."
@@ -6255,40 +6257,6 @@
         "https://fanvancouver.com/vancouver/fall-colours/"
       ],
       "pewnosc": "wysoka",
-      "zrodlo_danych": "Dodane 22.10.2026 z przebiegu B (druga wersja)."
-    },
-    {
-      "id": "sp-171",
-      "nazwa": "Ghostly New West Tour (Ghostly Vancouver Tours)",
-      "kategoria": "spacer",
-      "lat": 49.2012,
-      "lng": -122.9119,
-      "dzielnica": "New Westminster (zbiórka: Hyack Square lub hotel The Met)",
-      "czas_zwiedzania_h": 1.5,
-      "indoor": false,
-      "swiatlo": "zmrok",
-      "koszt_cad": 30,
-      "godziny": "Wieczorem 19:30 (dni do sprawdzenia na Eventbrite)",
-      "sezon_do": "",
-      "wymaga_auta": false,
-      "wymaga_rezerwacji": true,
-      "priorytet": "nice",
-      "notatka": "30 CAD + GST. Terminy 24.10–12.11 niepotwierdzone; punkt zbiórki zmienny. Punkt zbiórki nieznany – pinezka orientacyjna, sprawdź przy rezerwacji.",
-      "link": "https://www.ghostlyvancouvertours.com/our-tours",
-      "gluten": "",
-      "laktoza": "",
-      "sciezka": [],
-      "dystans_km": 0,
-      "przewyzszenie_m": 0,
-      "osm": "",
-      "foto": "",
-      "foto_pora": "",
-      "opis": "90-minutowy spacer po dawnej stolicy BC z wieloma relacjami o zjawiskach, często z pierwszej ręki od przewodniczki; kończy się we wnętrzu jednego z budynków.",
-      "dojazd_komunikacja": "SkyTrain Expo Line — Columbia lub New Westminster",
-      "zrodla": [
-        "https://www.ghostlyvancouvertours.com/our-tours"
-      ],
-      "pewnosc": "niska",
       "zrodlo_danych": "Dodane 22.10.2026 z przebiegu B (druga wersja)."
     },
     {

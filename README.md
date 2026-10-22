@@ -5,7 +5,7 @@ października i listopada 2026. Jeden plik HTML, bez backendu, bez kluczy API.
 
 ## Co potrafi
 
-- **Mapa** 190 punktów w Vancouver i okolicach — Halloween, natura, miasto, jedzenie,
+- **Mapa** 189 punktów w Vancouver i okolicach — Halloween, natura, miasto, jedzenie,
   muzea, widoki, spacery z przewodnikiem i szlaki piesze.
 - **Filtry** — kategoria, pod dachem, bez auta, sezonowe, bezpieczne bezglutenowo,
   ze szlakiem, dzielnica, priorytet, wyszukiwarka.
